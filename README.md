@@ -1,11 +1,13 @@
 <p align="center">
-    <img width=800" src="./banner.png" alt="LiveUI Banner logo">
+    <img width=800" src="./banner2.png" alt="LiveUI Banner">
 </p>
 
-<h1 align="center">LiveUI</i></h1>
-<p align="center"><b>The the first multimodal and end-to-end typesafe<br>framework to build AUIs (Agentic User Interfaces).
+<p align="center">
+    <img width=150" src="./logo3.png" alt="LiveUI Logo">
+</p>
 
-</b></p>
+<h1 align="center">LiveUI</h1>
+<p align="center"><b>The the first multimodal and end-to-end typesafe<br>framework to build AUIs (Agentic User Interfaces).</b></p>
 
 <br>
 
