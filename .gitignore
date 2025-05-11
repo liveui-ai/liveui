@@ -28,7 +28,7 @@ next-env.d.ts
 .nuxt/
 .vuepress/dist/
 .temp/
-.cache/            # parcel, gatsby, vuepress‑v2, vite
+.cache/
 .parcel-cache/
 **/.vitepress/dist/
 **/.vitepress/cache/
@@ -41,14 +41,14 @@ next-env.d.ts
 ###############################################################################
 # 3. Configuration & env
 ###############################################################################
-.env                # base
-.env.*             # all env files
-.env.*.local        # .env.local, .env.development.local, etc.
-*.pem               # SSL keys, certs
-*.tsbuildinfo       # TypeScript incremental cache
+.env
+.env.* 
+.env.*.local
+*.pem 
+*.tsbuildinfo
 .eslintcache
 .stylelintcache
-.rpt2_cache*/       # Microbundle / Rollup‑types
+.rpt2_cache*/
 .rts2_cache_*/
 
 ###############################################################################
@@ -61,7 +61,7 @@ yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
 .pnpm-debug.log*
-report.*.json       # Node diagnostics
+report.*.json
 pids/
 *.pid
 *.pid.lock
@@ -73,7 +73,7 @@ pids/
 coverage/
 *.lcov
 .nyc_output/
-lib-cov/            # jscoverage/JSCover
+lib-cov/
 # Turbo repo cache
 .turbo/
 
@@ -81,8 +81,8 @@ lib-cov/            # jscoverage/JSCover
 # 6. Miscellaneous
 ###############################################################################
 .DS_Store
-*.tgz               # `npm pack` artefacts
-.lock-wscript       # node‑waf
+*.tgz
+.lock-wscript
 .node_repl_history
 .vscode-test/
 .tern-port

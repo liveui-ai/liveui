@@ -9,7 +9,6 @@
       "devDependencies": {
         "@biomejs/biome": "^1.9.4",
         "npm-check-updates": "^18.0.1",
-        "prettier": "^3.5.3",
         "turbo": "^2.5.3",
         "typescript": "^5.8.3",
         "ultracite": "^4.2.4",
@@ -17,7 +16,6 @@
     },
     "apps/docs": {
       "name": "docs",
-      "version": "0.0.1",
       "dependencies": {
         "@tailwindcss/postcss": "^4.1.6",
         "next": "^15.3.2",
@@ -36,7 +34,6 @@
     },
     "apps/playground": {
       "name": "playground",
-      "version": "0.0.1",
       "dependencies": {
         "@liveui/client": "workspace:*",
         "@liveui/server": "workspace:*",
@@ -57,22 +54,14 @@
     },
     "packages/client": {
       "name": "@liveui/client",
-      "version": "0.0.2",
+      "version": "0.0.1",
       "devDependencies": {
-        "tsup": "^8.4.0",
-      },
-    },
-    "packages/react": {
-      "name": "@liveui/react",
-      "version": "0.0.2",
-      "devDependencies": {
-        "@liveui/client": "workspace:*",
         "tsup": "^8.4.0",
       },
     },
     "packages/server": {
       "name": "@liveui/server",
-      "version": "0.0.2",
+      "version": "0.0.1",
       "devDependencies": {
         "tsup": "^8.4.0",
       },
@@ -247,8 +236,6 @@
     "@jridgewell/trace-mapping": ["@jridgewell/trace-mapping@0.3.25", "", { "dependencies": { "@jridgewell/resolve-uri": "^3.1.0", "@jridgewell/sourcemap-codec": "^1.4.14" } }, "sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ=="],
 
     "@liveui/client": ["@liveui/client@workspace:packages/client"],
-
-    "@liveui/react": ["@liveui/react@workspace:packages/react"],
 
     "@liveui/server": ["@liveui/server@workspace:packages/server"],
 
@@ -606,7 +593,7 @@
 
     "postcss-load-config": ["postcss-load-config@6.0.1", "", { "dependencies": { "lilconfig": "^3.1.1" }, "peerDependencies": { "jiti": ">=1.21.0", "postcss": ">=8.0.9", "tsx": "^4.8.1", "yaml": "^2.4.2" }, "optionalPeers": ["jiti", "postcss", "tsx", "yaml"] }, "sha512-oPtTM4oerL+UXmx+93ytZVN82RrlY/wPUV8IeDxFrzIjXOLF1pN+EmKPLbubvKHT2HC20xXsCAH2Z+CKV6Oz/g=="],
 
-    "prettier": ["prettier@3.5.3", "", { "bin": { "prettier": "bin/prettier.cjs" } }, "sha512-QQtaxnoDJeAkDvDKWCLiwIXkTgRhwYDEQCghU9Z6q03iyek/rxRh/2lC3HB7P8sWT2xC/y5JDctPLBIGzHKbhw=="],
+    "prettier": ["prettier@2.8.8", "", { "bin": { "prettier": "bin-prettier.js" } }, "sha512-tdN8qQGvNjw4CHbY+XXk0JgCXn9QiF21a55rBe5LJAU+kDyC4WQn4+awm2Xfk2lQMk5fKup9XgzTZtGkjBdP9Q=="],
 
     "punycode": ["punycode@2.3.1", "", {}, "sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg=="],
 
@@ -735,10 +722,6 @@
     "wrap-ansi-cjs": ["wrap-ansi@7.0.0", "", { "dependencies": { "ansi-styles": "^4.0.0", "string-width": "^4.1.0", "strip-ansi": "^6.0.0" } }, "sha512-YVGIj2kamLSTxw6NsZjoBxfSwsn0ycdesmc4p+Q21c5zPuZ1pl+NfxVdxPtdHvmNVOQ6XSYG4AUtyt/Fi7D16Q=="],
 
     "yallist": ["yallist@5.0.0", "", {}, "sha512-YgvUTfwqyc7UXVMrB+SImsVYSmTS8X/tSrtdNZMImM+n7+QTriRXyXim0mBrTXNeqzVF0KWGgHPeiyViFFrNDw=="],
-
-    "@changesets/apply-release-plan/prettier": ["prettier@2.8.8", "", { "bin": { "prettier": "bin-prettier.js" } }, "sha512-tdN8qQGvNjw4CHbY+XXk0JgCXn9QiF21a55rBe5LJAU+kDyC4WQn4+awm2Xfk2lQMk5fKup9XgzTZtGkjBdP9Q=="],
-
-    "@changesets/write/prettier": ["prettier@2.8.8", "", { "bin": { "prettier": "bin-prettier.js" } }, "sha512-tdN8qQGvNjw4CHbY+XXk0JgCXn9QiF21a55rBe5LJAU+kDyC4WQn4+awm2Xfk2lQMk5fKup9XgzTZtGkjBdP9Q=="],
 
     "@emnapi/runtime/tslib": ["tslib@2.8.1", "", { "bundled": true }, "sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w=="],
 

@@ -14,9 +14,9 @@
     "version": "changeset version"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.29.3",
     "@biomejs/biome": "^1.9.4",
     "npm-check-updates": "^18.0.1",
-    "prettier": "^3.5.3",
     "turbo": "^2.5.3",
     "typescript": "^5.8.3",
     "ultracite": "^4.2.4"
@@ -25,8 +25,5 @@
     "node": ">=18"
   },
   "packageManager": "bun@1.2.13",
-  "workspaces": ["apps/*", "packages/*"],
-  "dependencies": {
-    "@changesets/cli": "^2.29.3"
-  }
+  "workspaces": ["apps/*", "packages/*"]
 }
