@@ -9,7 +9,7 @@
     "types": "turbo types --concurrency=100% --log-order=stream",
     "build": "turbo run build --concurrency=100% --log-order=stream",
     "dev": "turbo run dev --concurrency=100%",
-    "deploy": "bun run build && changeset publish && turbo run deploy --concurrency=100% --log-order=stream",
+    "deploy": "bun run build && changeset publish",
     "change": "changeset add",
     "version": "changeset version"
   },
