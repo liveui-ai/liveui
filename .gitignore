@@ -1,0 +1,88 @@
+###############################################################################
+# 1. Dependency / package managers
+###############################################################################
+node_modules/
+.pnp*
+.pnp.js
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+jspm_packages/
+bower_components/
+web_modules/
+.npm
+
+###############################################################################
+# 2. Build & distro artefacts
+###############################################################################
+# General
+build/
+dist/
+# Next.js / Vercel
+.next/
+out/
+.vercel/
+next-env.d.ts
+# Nuxt / VuePress / VitePress / Docusaurus
+.nuxt/
+.vuepress/dist/
+.temp/
+.cache/            # parcel, gatsby, vuepress‑v2, vite
+.parcel-cache/
+**/.vitepress/dist/
+**/.vitepress/cache/
+.docusaurus/
+# Serverless & tooling
+.serverless/
+.fusebox/
+.dynamodb/
+
+###############################################################################
+# 3. Configuration & env
+###############################################################################
+.env                # base
+.env.*             # all env files
+.env.*.local        # .env.local, .env.development.local, etc.
+*.pem               # SSL keys, certs
+*.tsbuildinfo       # TypeScript incremental cache
+.eslintcache
+.stylelintcache
+.rpt2_cache*/       # Microbundle / Rollup‑types
+.rts2_cache_*/
+
+###############################################################################
+# 4. Logs, reports, runtime data
+###############################################################################
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+report.*.json       # Node diagnostics
+pids/
+*.pid
+*.pid.lock
+*.seed
+
+###############################################################################
+# 5. Test & coverage outputs
+###############################################################################
+coverage/
+*.lcov
+.nyc_output/
+lib-cov/            # jscoverage/JSCover
+# Turbo repo cache
+.turbo/
+
+###############################################################################
+# 6. Miscellaneous
+###############################################################################
+.DS_Store
+*.tgz               # `npm pack` artefacts
+.lock-wscript       # node‑waf
+.node_repl_history
+.vscode-test/
+.tern-port

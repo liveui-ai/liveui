@@ -1,0 +1,1 @@
+Contains pure types + isomorphic utils shared by both client and server versions of the core SDK.

@@ -1,0 +1,7 @@
+{
+  "name": "@liveui/tsconfig",
+  "private": true,
+  "publishConfig": {
+    "access": "public"
+  }
+}

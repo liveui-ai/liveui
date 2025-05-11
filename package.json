@@ -1,0 +1,32 @@
+{
+  "name": "liveui",
+  "private": true,
+  "scripts": {
+    "bump": "ncu -i --workspaces --configFilePath /bin/null",
+    "clear": "find . -type d \\( -name 'node_modules' -o -name '.turbo' -o -name '.next' -o -name 'dist' -o -name 'tsconfig.tsbuildinfo' \\) -prune -exec rm -rf {} +",
+    "lint": "ultracite lint",
+    "format": "ultracite format",
+    "types": "turbo types --concurrency=100% --log-order=stream",
+    "build": "turbo run build --concurrency=100% --log-order=stream",
+    "dev": "turbo run dev --concurrency=100%",
+    "deploy": "turbo run deploy --concurrency=100% --log-order=stream",
+    "change": "changeset add",
+    "version": "changeset version"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "npm-check-updates": "^18.0.1",
+    "prettier": "^3.5.3",
+    "turbo": "^2.5.3",
+    "typescript": "^5.8.3",
+    "ultracite": "^4.2.4"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "packageManager": "bun@1.2.13",
+  "workspaces": ["apps/*", "packages/*"],
+  "dependencies": {
+    "@changesets/cli": "^2.29.3"
+  }
+}

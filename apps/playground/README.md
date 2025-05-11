@@ -1,0 +1,1 @@
+This is a demo application, used by LiveUI developers to run experiments with the latest features.
