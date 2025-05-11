@@ -1,9 +1,9 @@
 <p align="center">
-    <img width=800" src="./banner2.png" alt="LiveUI Banner">
+    <img width=800" src="./banner.png" alt="LiveUI Banner">
 </p>
 
 <p align="center">
-    <img width=150" src="./logo3.png" alt="LiveUI Logo">
+    <img width=150" src="./logo.png" alt="LiveUI Logo">
 </p>
 
 <h1 align="center">LiveUI</h1>
